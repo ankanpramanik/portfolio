@@ -1,0 +1,430 @@
+.nav-item{
+    color: beige;
+}
+.navbar{
+  height: 4.5em;  
+}
+.nav-item:hover{
+    color: blanchedalmond;
+    background-color: gray;
+    border: 1px solid gray;
+}
+.navbar-brand{
+  font-size: 1.9em;
+}
+body{
+    background-image: url(images/background.jpg);
+}
+.bg-dark{
+    border-bottom: 1px solid lavender;
+}
+#navbarSupportedContent{
+    text-align: left;
+}
+/*jumbotron*/
+.jumbotron
+{   
+padding-top: 0px;
+padding-bottom:0px;
+background-image:url('images/jumbotron.jpg');
+background-size: cover;
+height:380px;
+}
+.display-4{
+text-align: center;
+height: 20px;
+padding-top: 2em;
+color: darkblue;
+font-weight: 400;
+}
+.display-69{
+text-align: center;
+padding-top: 3.5em;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: black;
+font-weight: 320;
+font-style: italic;
+}
+/*footer*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;  
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:10px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:none;
+  letter-spacing:2px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0;
+  padding:10px;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.socials li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding-left: 8px;
+  /* float: left; */
+}
+/*Back to top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #0d82ff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */  
+}
+#myBtn:hover {
+  background-color: #f20f3c; 
+}
+.text-justify, .footer-links a{
+  color: #ffffff;
+  opacity: 0.5;
+}
+@media (max-width: 767px){
+  .display-4{
+    color: #037ffc;
+  }
+}
+.main-content{
+  color: #bea9fe;
+  background-color: #ffffff;
+  height: 350px;
+  padding-bottom: 40px;
+  /* overflow: auto; */
+}
+.h3-heading{
+  color: black;
+  padding-left:40px;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+  padding-left: 40px;
+  text-align: justify;
+  color: #26272b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-right: 30px;
+  padding-top: 20px;
+  line-height: 30px;  
+}
+.ankan-img{
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+@media(max-width: 767px){
+.ankan-img{
+  display: none;
+  }
+}
+@media(min-width:768px) and (max-width:992px){
+  .ankan-img{
+    height: 290px;
+    width: 290;
+    padding-top: 50px;
+    padding-right: 70px;
+  }
+  .main-content{
+    overflow: scroll;
+  }
+}
+.activeclick{
+  background-color:#919191 ;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.broken-page{
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+.contact{
+  background-color: #ffffff;
+  padding: 30px;
+  height: 350px;
+  height: auto;
+  line-height:100px;
+}
+#contact-heading{
+  color: #0a0183b2;
+  font-family: 'Caveat', cursive;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+
+}
+#socials{
+  color: #26272b;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 500px;
+  /* width: 2em; */
+  text-align: center;
+}
+.icons{
+  text-align: center;
+  margin-top: 55px;
+  
+}
+#mysocials{
+  text-align: center;
+}
+
+.facebook2, .twitter2, .instagram2, .linkedin2 {
+  padding-right: 15px;
+  
+
+}
+
+.mail2{
+  padding-left: 20px;
+}
+
+@media(max-width:767px){
+  .facebook2, .twitter2, .instagram2 {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width:992px){
+  .ham-menu{
+    background-color: #182041;
+    border-bottom: #b0d1f1 solid 1px;
+    border-left: #b0d1f1 solid 1px;
+    border-right: #b0d1f1 solid 1px;
+    /* text-align: center; */
+  }
+  .nav{
+    text-align: center;
+  }
+}
+
+.navbar-toggler-icon{
+  text-align: center;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(33, 132, 224); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(240, 35, 35); 
+}
+.bg-dark{
+  background-color: #100f35;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ @media (min-width:430px){
+  .main-content{
+    height: auto;
+    
+  }
+}
